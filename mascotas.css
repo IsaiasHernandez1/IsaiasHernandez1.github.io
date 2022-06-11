@@ -1,0 +1,41 @@
+#mascotas {
+    background: #FFE4E1;
+    color: black
+    text-align: center;
+    padding: 20px;
+    
+}
+
+#mascotas .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mascotas {
+    margin: 20px;
+}
+
+.mascotas felices img {
+    width: 180px;
+    height: 180px; 
+    border-radius: 50%;
+    border: 7px solid #fff;
+
+}
+
+.video {
+    width: 500px;
+    height: 180px;
+}
+@media (min-widt;480px) {
+    .info-pet {
+        width: 40%;
+    }
+}
+
+@media (min-width;1024px) {
+    .info-pet {
+        width: auto;
+    }
+}
